@@ -1,4 +1,4 @@
-# dbt - DataBaseTable
+# DB - DataBase Table reader
 python class for super short DB table reading
 
 ✅ Basic Usage
