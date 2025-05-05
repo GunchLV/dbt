@@ -5,7 +5,7 @@ import difflib
 
 engine = create_engine("sqlite:///example.db")
 
-class dbt:
+class DB:
     def __new__(cls, table, col_where='', where='', limit=None):
         
         if not isinstance(table, str): # if table is not string, use variable as name
